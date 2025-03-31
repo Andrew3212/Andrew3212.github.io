@@ -1,1 +1,1 @@
-legend.manatee.gas
+manatee.gg
