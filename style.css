@@ -1,6 +1,10 @@
 body {
-    background-color: red;
+    background-color: orangered;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+h1 {
+    color: blue;
 }
