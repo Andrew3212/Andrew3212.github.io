@@ -27,48 +27,33 @@ img {
 }
 
 nav {
-    background: #222;  /* Dark background */
+    background: #222; /* Dark background */
     padding: 10px;
     text-align: center;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Makes items line up horizontally */
-    justify-content: center; /* Centers them */
-    align-items: center;
-    gap: 10px; /* Adds spacing between buttons */
+    display: flex;  /* Make items line up horizontally */
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Adds space between links */
 }
 
 li {
-    display: inline; /* Keeps them in one line */
-}
-
-a, button, input {
-    padding: 10px;
-    font-size: 16px;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
+    display: inline; /* Ensure items stay in a row */
 }
 
 a {
     color: white;
     background: #444; /* Button-like background */
+    padding: 10px 15px;
     border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-button {
-    background: #007bff; /* Blue button */
-    color: white;
-    border-radius: 5px;
-}
-
-input {
-    width: 150px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px;
+a:hover {
+    background: #666; /* Slightly lighter when hovered */
 }
