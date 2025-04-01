@@ -6,8 +6,8 @@ body {
 }
 
 h1 {
-    font-family: fantasy;
-    color: blue;
+    font-family: initial;
+    color: yellow;
 }
 
 #bg-video {
