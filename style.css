@@ -9,3 +9,12 @@ h1 {
     font-family: fantasy;
     color: blue;
 }
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
