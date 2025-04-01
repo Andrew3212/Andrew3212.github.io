@@ -27,7 +27,7 @@ img {
 }
 
 nav {
-    background: #222;
+    background: #222;  /* Dark background */
     padding: 10px;
     text-align: center;
 }
@@ -36,26 +36,39 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Makes items line up horizontally */
+    justify-content: center; /* Centers them */
+    align-items: center;
+    gap: 10px; /* Adds spacing between buttons */
 }
 
 li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* Keeps them in one line */
+}
+
+a, button, input {
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
 a {
     color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-input {
-    padding: 5px;
-    font-size: 16px;
+    background: #444; /* Button-like background */
+    border-radius: 5px;
 }
 
 button {
-    padding: 5px 10px;
-    font-size: 16px;
-    cursor: pointer;
+    background: #007bff; /* Blue button */
+    color: white;
+    border-radius: 5px;
+}
+
+input {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
 }
