@@ -62,12 +62,14 @@ a:hover {
     all: unset; /* Removes default link styles */
     display: inline-block;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .download-link:focus, .download-link:active {
     outline: none;
     box-shadow: none;
     backround: transparent;
+    border: 2px solid transparent;
 }
 
 .download-link img {
