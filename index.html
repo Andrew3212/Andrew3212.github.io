@@ -20,9 +20,12 @@
     Your browser does not support the video tag.
     </video>
 
-    <a href="TheFrog.PNG" download>
-    <img src="GEM.png" alt="Download File" width="200">
-</a>
+    <img src="GEM.png" alt="Download File" width="200" onclick="downloadFile()">
+    <script>
+    function downloadFile() {
+        window.location.href = "TheFrog.png";
+    }
+    </script>
 
 </body>
 </html>
