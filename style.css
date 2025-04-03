@@ -28,9 +28,6 @@ img {
 
 nav {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     background: rgba(40, 55, 75, 0.8);
     padding: 10px 0px;
     text-align: center;
