@@ -59,17 +59,16 @@ a:hover {
 }
 
 .download-link {
-    all: unset; /* Removes default link styles */
+    all: unset;
     display: inline-block;
     cursor: pointer;
-    border: 2px solid transparent;
+    text-decoration: none;
 }
 
 .download-link:focus, .download-link:active {
     outline: none;
     box-shadow: none;
-    backround: transparent;
-    border: 2px solid transparent;
+    background: transparent;
 }
 
 .download-link img {
