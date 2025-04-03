@@ -53,7 +53,7 @@ li {
 
 a {
     color: greenyellow;
-    background: darkgoldenrod; /* Button-like background */
+    background: black; /* Button-like background */
     padding: 8px 15px;
     border-radius: 2px;
     text-decoration: none;
