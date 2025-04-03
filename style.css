@@ -59,6 +59,7 @@ a {
     text-decoration: none;
     font-size: 19px;
     font-family: initial;
+    font-weight: bold;
 }
 
 a:hover {
