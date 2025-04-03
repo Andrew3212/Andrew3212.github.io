@@ -68,7 +68,7 @@ a:hover {
 
 
 .download-link:hover img {
-    filter: drop-shadow(0px 0px 30px lightseagreen);
+    filter: drop-shadow(0px 0px 30px azure);
 }
 
 .download-link img {
