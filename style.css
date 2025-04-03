@@ -28,9 +28,8 @@ img {
 
 nav {
     background: rgba(66, 79, 79, 0.7);
-    padding: 18;
+    padding: 8;
     text-align: center;
-    position:fixed;
 }
 
 ul {
