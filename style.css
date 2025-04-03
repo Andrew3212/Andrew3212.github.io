@@ -44,7 +44,7 @@ ul {
     padding: 0;
     display: flex;  /* Make items line up horizontally */
     justify-content: center; /* Center the items */
-    gap: 16px; /* Adds space between links */  
+    gap: 10px; /* Adds space between links */  
 }
 
 li {
