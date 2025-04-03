@@ -32,6 +32,8 @@ nav {
     padding: 8;
     text-align: center;
     position:fixed;
+    top: 0;
+    left: 0;
 }
 
 ul {
@@ -41,6 +43,7 @@ ul {
     display: flex;  /* Make items line up horizontally */
     justify-content: center; /* Center the items */
     gap: 20px; /* Adds space between links */
+    width: 100%;
 }
 
 li {
