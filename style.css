@@ -72,12 +72,12 @@ a:hover {
     background: transparent;
 }
 
+.download-link:hover img {
+    filter: drop-shadow(0px 0px 10px seagreen);
+}
+
 .download-link img {
     transition: 0.3s ease-in-out;
     user-select: none;
     -webkit-user-drag: none;
-}
-
-.download-link:hover img {
-    filter: drop-shadow(0px 0px 10px seagreen);
 }
