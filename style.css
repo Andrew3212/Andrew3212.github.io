@@ -1,6 +1,6 @@
 body {
     background-color: moccasin;
-    color: lightgoldenrodyellow;
+    color: lightyellow;
     font-family: fantasy;, sans-serif;
     text-align: center;
 }
@@ -72,6 +72,8 @@ a:hover {
 
 .download-link img {
     transition: 0.3s ease-in-out;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .download-link:hover img {
