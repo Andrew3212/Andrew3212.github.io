@@ -57,3 +57,8 @@ a {
 a:hover {
     background: #666; /* Slightly lighter when hovered */
 }
+
+.download-link {
+    all: unset; /* Removes default link styles */
+    display: inline-block;
+}
