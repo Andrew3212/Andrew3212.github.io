@@ -28,9 +28,9 @@ img {
 
 nav {
     background: rgba(70, 90, 79, 0.8);
-    padding: 35;
     text-align: center;
     position:fixed;
+    padding: 20;
 }
 
 ul {
