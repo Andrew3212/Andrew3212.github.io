@@ -62,6 +62,8 @@ a:hover {
     all: unset;
     display: inline-block;
     cursor: pointer;
+    text-decoration: none;
+    outline:none;
 }
 
 .download-link:hover {
@@ -71,9 +73,11 @@ a:hover {
 }
 
 .download-link:hover img {
-    filter: drop-shadow(0px 0px 60px red);
+    filter: drop-shadow(0px 0px 30px red);
 }
 
 .download-link img {
     transition: 0.3s ease-in-out;
+    user-select: none;
+    -webkit-user-drag: none;
 }
