@@ -31,7 +31,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(40, 55, 75, 0.8);
+    background: rgba(40, 55, 80, 0.8);
+    backdrop-filter: blur(10px); /* Blurs the background */
     padding: 13px 0px;
     text-align: center;
     margin: 0;
