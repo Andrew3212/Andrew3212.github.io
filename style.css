@@ -61,11 +61,13 @@ a:hover {
 .download-link {
     all: unset; /* Removes default link styles */
     display: inline-block;
+    cursor: pointer;
 }
 
 .download-link:focus, .download-link:active {
     outline: none;
     box-shadow: none;
+    backround: transparent;
 }
 
 .download-link img {
@@ -73,5 +75,5 @@ a:hover {
 }
 
 .download-link:hover img {
-    filter: drop-shadow(0px 0px 10px limegreen);
+    filter: drop-shadow(0px 0px 10px seagreen);
 }
