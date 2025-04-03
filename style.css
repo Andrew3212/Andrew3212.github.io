@@ -33,7 +33,7 @@ nav {
     width: 100%;
     background: rgba(40, 55, 80, 0.8);
     backdrop-filter: blur(10px); /* Blurs the background */
-    padding: 13px 0px;
+    padding: 11px 0px;
     text-align: center;
     margin: 0;
 }
@@ -52,12 +52,13 @@ li {
 }
 
 a {
-    color: white;
+    color: greenyellow;
     background: #444; /* Button-like background */
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 1px;
     text-decoration: none;
     font-size: 18px;
+    font-family: initial;
 }
 
 a:hover {
