@@ -27,8 +27,8 @@ img {
 }
 
 nav {
-    background: #222; /* Dark background */
-    padding: 10px;
+    background: 49, 79, 79, .6; /* Dark background */
+    padding: 2px;
     text-align: center;
 }
 
