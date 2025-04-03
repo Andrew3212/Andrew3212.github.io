@@ -52,13 +52,14 @@ a {
     border-radius: 5px;
     text-decoration: none;
     font-size: 18px;
+    
+    .download-link {
+    all: unset; /* Removes default link styles */
+    display: inline-block;
+    }
 }
 
 a:hover {
     background: #666; /* Slightly lighter when hovered */
 }
 
-.download-link {
-    all: unset; /* Removes default link styles */
-    display: inline-block;
-}
