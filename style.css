@@ -44,7 +44,7 @@ ul {
     padding: 0;
     display: flex;  /* Make items line up horizontally */
     justify-content: center; /* Center the items */
-    gap: 20px; /* Adds space between links */  
+    gap: 16px; /* Adds space between links */  
 }
 
 li {
@@ -54,8 +54,8 @@ li {
 a {
     color: greenyellow;
     background: black; /* Button-like background */
-    padding: 8px 15px;
-    border-radius: 2px;
+    padding: 9px 15px;
+    border-radius: 3px;
     text-decoration: none;
     font-size: 19px;
     font-family: initial;
